@@ -1,0 +1,46 @@
+.get-in-touch .info__description{
+    width: calc(323 / 375 * 100%);
+    margin: 0 auto;
+}
+
+.get-in-touch .info{
+    margin: 0 0 49px 0;
+    text-align: center;
+}
+
+.get-in-touch__background-top {
+    position: absolute;
+    margin-top: -285px;
+    z-index: 0;
+}
+
+.get-in-touch__background-bottom {
+    position: absolute;
+    right: 0;
+    margin-top: -450px;
+    z-index: 0;
+}
+
+.get-in-touch__background-top img, .get-in-touch__background-bottom img{
+    width: 100%;
+}
+
+@media (min-width: 993px) {
+    .get-in-touch .info{
+        margin: 0 0 82px 0;
+    }
+
+    .get-in-touch .info__description{
+        width: 582px;
+        white-space: pre-line;
+    }
+
+    .get-in-touch__background-top {
+        margin: -300px 0 0 5.6%;
+    }
+    
+    .get-in-touch__background-bottom {
+        right: 0;
+        margin-top: -750px;
+    }
+}
