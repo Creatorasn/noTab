@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    .main__notab-display{
+        display: none;
+    }
+}
+
+.main__notab-display{
+    margin: -20.21px 0 13px 0;
+}
+
+.block-notab-iPhohe img{
+    display: block;
+    margin: 0 auto;
+    width: calc(859 / 1440 * 100%);
+    max-width: 858.94px;
+}
+
+.block-notab-iPhohe {
+    position: absolute;
+    width: 100%;
+    margin-top: 26.5%;
+}
+
+.block-notab-display img{
+    display: block;
+    margin: 0 auto;
+    width: calc(675.46 / 1440 * 100%);
+    max-width: 675.46px;
+}
+
+.block-notab-display {
+    position: absolute;
+    width: 100%;
+    margin-top: 1.65%;
+}

@@ -1,0 +1,121 @@
+.generate__iPhone img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+
+.generate__background {
+    position: absolute;
+    width: 100%;
+    margin-top: 292px;
+}
+
+.generate__iPhone-background{
+    position: absolute;
+    margin: 219px 0 0 0;
+    width: 81.7%;
+    height: 285.27px;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.15;
+    filter: blur(93.3565px);
+    border-radius: 50%;
+    transform: rotate(-0.55deg);
+    align-self: center;
+}
+
+.generate__body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.generate__arrow {
+    position: relative;
+    align-self: center;
+    margin: -55px 0 0 255px;
+}
+
+.generate__recommendation {
+    font-family: Montserrat; 
+    font-weight: 700;
+    position: relative;
+}
+
+.generate__text .info__description {
+    white-space: pre-line;
+}
+
+@media (max-width: 767px) {
+
+    .generate__arrow {
+        margin: -55px 0 0 255px;
+    }
+
+    .generate__recommendation {
+        align-self: center;
+        margin: 15.12px 0 116px 180px;
+    }
+}
+
+@media (min-width: 768px) {
+    .generate__iPhone-background {
+        margin-top: -105px;
+        width: 70.97%;
+        height: 952.07px;
+        filter: blur(311.569px);
+        border-radius: 476.034px;
+    }
+
+    .generate__arrow {
+        margin: -469px 0 0 535px;
+    }
+
+    .generate__recommendation {
+        align-self: flex-end;
+        font-size: 21px;
+        margin: 14.75px 30px 469px 0;
+    }
+}
+
+@media (min-width: 993px) {
+    .generate__iPhone img {
+        margin-top: 41.85px;
+    }
+
+    .generate__background {
+        margin-top: 150.07px;
+    }
+
+    .generate__text {
+        order: 4;
+    }
+
+    .generate__text .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 192px;
+    }
+
+    .generate__text h2{
+        width: 381px;
+        height: 124px;
+    }
+
+    .generate__text .info__description{
+        width: 292px;
+        height: 50px;
+        margin: 0 15px;
+    }
+
+    .generate__recommendation {
+        margin: 14.75px 13% 437px 0;
+    }
+}
+
+@media (min-width: 1270px) {
+    .generate__text .info__description{
+        margin: 0;
+    }
+}

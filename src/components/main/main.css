@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+    .main__display{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .main__display-mobile{
+        display: none;
+    }
+}

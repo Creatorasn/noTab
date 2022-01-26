@@ -1,0 +1,9 @@
+.main__partner{
+    margin: 61px 0 110px 0;
+}
+
+.partner__body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

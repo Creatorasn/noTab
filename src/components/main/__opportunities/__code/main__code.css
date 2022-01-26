@@ -1,0 +1,159 @@
+.code__download .download__text {
+    display: none;
+}
+    
+.code__background-left:after {
+    content: "";
+    display: block;    
+    width: 100%;
+    height: 101%;    
+    position: absolute;
+    top: 0;      
+    left: 0;   
+    background: transparent;
+    background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+}
+
+.code__background-left:before{
+    content: "";
+    display: inline-block;    
+    width: 100%;
+    height: 102%;    
+    position: absolute;
+    top: -1px;      
+    left: 0;
+    z-index: 2;
+    border-top: solid 8px #000000;
+}
+
+@media (min-width: 768px) {
+    .code__background-left:after {
+        height: 112.54%;    
+    }
+
+    .code {
+        display: flex;
+        flex-wrap: wrap;
+        /* position: relative; */
+    }
+
+    .code__background-left{
+        order: 1;
+        position: absolute;
+        z-index: 1;
+        display: inline-block;   
+        line-height: 0;
+        width: 100%;
+
+    }
+
+    .code__background-left img{
+        width: calc(778 / 1440 * 100%);
+    }
+
+    .code__background-right{
+        order: 2;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        width: 100%;
+    }
+
+    .code__background-right img{
+        margin-left: calc(789 / 1440 * 100%);
+        width: calc(651 / 1440 * 100%);
+    }
+
+    .code__container{
+        order: 3;
+        z-index: 4;
+        margin-top: 542px;
+        width: 100%;
+    }
+
+    .code__container  .info__description{
+        width: 315px;
+    }
+
+    .code__order-img{
+        order: 4;
+        position: relative;
+        z-index: 3;
+        display: flex;
+        margin: -1025px 0 0 calc(652 / 1440 * 100%);
+    }
+
+    .code__order-img img{
+        width: 100%;
+    }
+
+    .code__order-top{
+        margin-top: 225px;
+    }
+
+    .code__order-bottom{
+        margin: 556px calc(56.44 / 1440 * 100%) 0 calc(80.44 / 1440 * 100%);
+    }
+
+    .code__download{
+        width: 377px;
+        margin: 58px 0 0 15px;
+    }
+
+    .code__download .download__app-store {
+        margin-right: 28px;
+    }
+
+    .code__background-nightlife img{
+        position: absolute;
+        width: 134px;
+        right: calc(93.8 / 1440 * 100%);
+        margin-top: -12px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    .code__background-left {
+        position: relative;    
+        line-height: 0;
+    }
+    
+    .code__text .info {
+        position: relative;
+        margin: -84px 0 16px 15px;
+    }
+
+    .code__background-left img{
+        width: 100%;
+    }
+
+    .code__background-right img{
+        width: 83.2%;
+        margin-left: 16.8%;
+    }
+
+    .code__text .info__description {
+        width: 86%;
+        white-space: pre-line;
+    }
+
+    .code__background-nightlife img{
+        position: absolute;
+        width: calc(85.52 / 375 * 100%);
+        left: calc(33 / 375 * 100%);
+        margin-top: 114px;
+    }
+
+    .code__order-top img, .code__order-bottom img{
+        display: block;
+        margin: 0 auto;
+    }
+    .code__order-top{
+        margin: -91px 0 50px 0;
+    }
+
+    .code__order-bottom{
+        margin-bottom: 130.59px;
+    }
+}

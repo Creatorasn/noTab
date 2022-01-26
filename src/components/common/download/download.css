@@ -1,0 +1,85 @@
+.download{
+    height: 216px;
+    z-index: 2;
+    position: relative;
+}
+
+.download__app-store img:hover, .download__google-play img:hover{
+    transform: scale(0.99);
+    opacity: 0.8;
+}
+
+.download__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download__text{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    height: 29px;
+    line-height: 29px;
+}
+
+@media (max-width: 767px){
+    .download__link{
+        width: 187px;
+        margin: 34px 0 0 0;
+    }
+    .download__google-play{
+        margin-top: 24px;
+    }
+    .main__download-last .download{
+        height: 288px;
+    }
+}
+
+@media (min-width: 1271px) {
+    .main__download-first .download__text{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 993px) {
+    .main__download-first .download__text{
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .main__download-first .download{
+        height: 85px;
+    }
+    .main__download-first .download__body{
+        flex-direction: row;
+        align-items: center;
+    }
+    .main__download-first .download__text{
+        height: 70px;
+        line-height: 70px;
+        margin-left: 15px;
+    }
+    .download__link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main__download-first .download__link{
+        margin-right: 4.4%;
+        width: 364px;
+    }
+    .main__download-last .download{
+        height: 292px;
+    }
+    .main__download-last .download__link{
+        margin-top: 32px;
+        width: 610px;
+    }
+    .main__download-last img{
+        height: 81px;
+    }
+}
