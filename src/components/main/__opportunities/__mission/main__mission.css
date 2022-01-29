@@ -41,13 +41,17 @@
     
     .mission__img{
         position: absolute;
+        margin-left: -451px;
         left: 0;
         margin-top: -520px;
+        z-index: 10;
     }
     
     .mission__text{
         max-width: 375px;
         margin: 126px 0 0 819px;
+        position: relative;
+        opacity: 1;
     }
     
     .mission__text .info__description{
