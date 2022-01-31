@@ -37,10 +37,22 @@
     }
 }
 
-@media (min-width: 1271px) {
+/* @media (min-width: 1271px) {
     .main__download-first .download__text{
         margin-left: 0;
     }
+} */
+
+@media (max-width: 1270px) {
+    .download{
+        margin-left: 15px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .download{
+        margin-left: 0;
+    }    
 }
 
 @media (min-width: 993px) {
@@ -61,7 +73,6 @@
     .main__download-first .download__text{
         height: 70px;
         line-height: 70px;
-        margin-left: 15px;
     }
     .download__link{
         display: flex;

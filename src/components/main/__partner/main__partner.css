@@ -1,5 +1,7 @@
 .main__partner{
     margin: 61px 0 110px 0;
+    position: relative;
+    z-index: 10;
 }
 
 .partner__body{

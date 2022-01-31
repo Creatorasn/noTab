@@ -2,7 +2,7 @@ import React from 'react';
 import Info from '../../../common/info/info';
 import PictureMissionBackground from '../../../common/picture/__opportunities/__mission/picture__mission-background';
 import PictureMissionIPhoneX from '../../../common/picture/__opportunities/__mission/picture__mission-iPhoneX';
-import useOnScreen from '../../../../hooks/use-on-screen';
+import useOnScreen from '../../../../hooks/main__mission/use-on-screen';
 import './main__mission.css'
 
 

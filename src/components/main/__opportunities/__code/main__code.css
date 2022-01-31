@@ -23,7 +23,7 @@
     top: -1px;      
     left: 0;
     z-index: 2;
-    border-top: solid 8px #000000;
+    border-top: solid 10px #000000;
 }
 
 @media (min-width: 768px) {
@@ -97,7 +97,7 @@
 
     .code__download{
         width: 377px;
-        margin: 58px 0 0 15px;
+        margin: 58px 0 0 0;
     }
 
     .code__download .download__app-store {

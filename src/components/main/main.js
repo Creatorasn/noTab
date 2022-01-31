@@ -1,6 +1,4 @@
 import React from 'react';
-import './main.css';
-import Cookies from '../common/cookies/cookies';
 import Partner from './__partner/main__partner';
 import MainBlock from './__main-block/main__main-block';
 import Download from '../common/download/download';
@@ -14,9 +12,6 @@ const Main = () => {
             < MainBlock />
             <div className='main__download-first'>
                 < Download />
-            </div>
-            <div className='main__display'>
-                < Cookies />
             </div>
             < Partner />
             < Opportunities />

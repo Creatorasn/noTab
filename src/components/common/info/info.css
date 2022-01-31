@@ -1,7 +1,3 @@
-.info{
-    margin-left: 15px;
-}
-
 .info__description{
     width: 84%;
     line-height: 24.52px;
@@ -12,4 +8,10 @@
         font-size: 16px;
         line-height: 21.79px;
     }
+}
+
+@media (max-width: 1270px) {
+    .info{
+        margin-left: 15px;
+    }    
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './form.css'
-import useInput from '../../../../hooks/use-input';
-import usePressing from '../../../../hooks/use-pressing';
+import useInput from '../../../../hooks/form/use-input';
+import usePressing from '../../../../hooks/form/use-pressing';
 
 const Form = () => {
     const name = useInput ('', {isEmpty: true, minLength: 3, maxLength: 70})
